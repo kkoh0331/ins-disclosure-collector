@@ -1,0 +1,36 @@
+{
+  "company": "DB손해보험",
+  "title": "2025년 1분기 DB손해보험 현황(경영공시)",
+  "posted_date": "2025-05-30",
+  "period_year": 2025,
+  "period_kind": "Q1",
+  "period_label": "2025_Q1",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=fcfc7a2efb874e418ebc&tp=T&tx=&ct=6",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2025_Q1/doc_6_2025년_1분기_DB손해보험_현황_경영공시/2025053002_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2025_Q1/doc_6_2025년_1분기_DB손해보험_현황_경영공시/2025053002_pdf.txt",
+    "page_count": 165,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": 347936345075,
+        "prior_value": 211982533839,
+        "change": 6,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 10654243166767,
+        "prior_value": 9921253775690,
+        "change": 4,
+        "unit": "억원"
+      }
+    ]
+  }
+}

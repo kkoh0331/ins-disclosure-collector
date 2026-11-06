@@ -1,0 +1,17 @@
+{
+  "company": "DB손해보험",
+  "title": "2023년 DB손해보험 현황(경영통일공시)",
+  "posted_date": "2024-03-29",
+  "period_year": 2023,
+  "period_kind": "ANNUAL",
+  "period_label": "2023_ANNUAL",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=b0f1ecacd6c244aaa545&tp=T&tx=&ct=17",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2023_ANNUAL/doc_17_2023년_DB손해보험_현황_경영통일공시/2024032902_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2023_ANNUAL/doc_17_2023년_DB손해보험_현황_경영통일공시/2024032902_pdf.txt",
+    "page_count": 255,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": []
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "company": "DB손해보험",
+  "title": "2023년 상반기 DB손해보험 현황(경영공시)_시장위험 관리 일부항목 정정",
+  "posted_date": "2023-11-30",
+  "period_year": 2023,
+  "period_kind": "H1",
+  "period_label": "2023_H1",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=2bc03b0755634194bbd6&tp=T&tx=&ct=19",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2023_H1/doc_19_2023년_상반기_DB손해보험_현황_경영공시__시장위험_관리_일부항목_정정/2023113005_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2023_H1/doc_19_2023년_상반기_DB손해보험_현황_경영공시__시장위험_관리_일부항목_정정/2023113005_pdf.txt",
+    "page_count": 58,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": 442266,
+        "prior_value": 454006,
+        "change": -11740,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 356636,
+        "prior_value": 364868,
+        "change": -8232,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "equity",
+        "metric_name": "자본",
+        "value": 85630,
+        "prior_value": 89138,
+        "change": -3508,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "net_income",
+        "metric_name": "당기순이익",
+        "value": 9181,
+        "prior_value": 9370,
+        "change": -189,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "investment_yield",
+        "metric_name": "운용자산이익률(A/B)",
+        "value": 3.58,
+        "prior_value": 3.42,
+        "change": 0.16,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "operating_margin",
+        "metric_name": "영업이익률",
+        "value": 11.67,
+        "prior_value": 5.27,
+        "change": 6.4,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "roa",
+        "metric_name": "총자산수익률(ROA)",
+        "value": 4.12,
+        "prior_value": 4.1,
+        "change": 0.02,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "roe",
+        "metric_name": "자기자본수익률(ROE)",
+        "value": 20.26,
+        "prior_value": 23.15,
+        "change": -2.89,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영효율 지표",
+        "metric_key": "new_business_rate",
+        "metric_name": "신계약률",
+        "value": 56.83,
+        "prior_value": 67.98,
+        "change": -11.15,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영효율 지표",
+        "metric_key": "lapse_surrender_rate",
+        "metric_name": "효력상실 및 해약률",
+        "value": 4.03,
+        "prior_value": 3.37,
+        "change": 0.66,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영효율 지표",
+        "metric_key": "asset_management_rate",
+        "metric_name": "자산운용률",
+        "value": 93.94,
+        "prior_value": 96.1,
+        "change": -2.16,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_13m",
+        "metric_name": "13회차 유지율",
+        "value": 88.7,
+        "prior_value": 90.37,
+        "change": -1.67,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_25m",
+        "metric_name": "25회차 유지율",
+        "value": 77.42,
+        "prior_value": 77.12,
+        "change": 0.3,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_37m",
+        "metric_name": "37회차 유지율",
+        "value": 64.36,
+        "prior_value": 62.92,
+        "change": 1.44,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_49m",
+        "metric_name": "49회차 유지율",
+        "value": 55.39,
+        "prior_value": 46.29,
+        "change": 9.1,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_61m",
+        "metric_name": "61회차 유지율",
+        "value": 41.14,
+        "prior_value": 41.39,
+        "change": -0.25,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_73m",
+        "metric_name": "73회차 유지율",
+        "value": 37.46,
+        "prior_value": 39.85,
+        "change": -2.39,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_85m",
+        "metric_name": "85회차 유지율",
+        "value": 36.46,
+        "prior_value": 47.19,
+        "change": -10.73,
+        "unit": "%"
+      }
+    ]
+  }
+}

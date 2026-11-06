@@ -1,0 +1,17 @@
+{
+  "company": "DB손해보험",
+  "title": "2024년 DB손해보험 현황(경영통일공시)_재무에 관한 사항 일부 항목 정정",
+  "posted_date": "2025-04-10",
+  "period_year": 2024,
+  "period_kind": "ANNUAL",
+  "period_label": "2024_ANNUAL",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=410429bb2d964ea3aa6f&tp=T&tx=&ct=7",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2024_ANNUAL/doc_7_2024년_DB손해보험_현황_경영통일공시__재무에_관한_사항_일부_항목_정정/2025041001_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2024_ANNUAL/doc_7_2024년_DB손해보험_현황_경영통일공시__재무에_관한_사항_일부_항목_정정/2025041001_pdf.txt",
+    "page_count": 4,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": []
+  }
+}

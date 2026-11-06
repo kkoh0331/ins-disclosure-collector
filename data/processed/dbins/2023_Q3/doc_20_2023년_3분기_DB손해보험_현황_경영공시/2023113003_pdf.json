@@ -1,0 +1,36 @@
+{
+  "company": "DB손해보험",
+  "title": "2023년 3분기 DB손해보험 현황(경영공시)",
+  "posted_date": "2023-11-30",
+  "period_year": 2023,
+  "period_kind": "Q3",
+  "period_label": "2023_Q3",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=c098dd3d56da4fa7b0fe&tp=T&tx=&ct=20",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2023_Q3/doc_20_2023년_3분기_DB손해보험_현황_경영공시/2023113003_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2023_Q3/doc_20_2023년_3분기_DB손해보험_현황_경영공시/2023113003_pdf.txt",
+    "page_count": 152,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": null,
+        "prior_value": 18453866677,
+        "change": 19,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 5555425317787,
+        "prior_value": 5057354556269,
+        "change": 4,
+        "unit": "억원"
+      }
+    ]
+  }
+}

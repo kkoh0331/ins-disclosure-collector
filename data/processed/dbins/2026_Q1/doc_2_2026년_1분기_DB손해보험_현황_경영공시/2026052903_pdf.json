@@ -1,0 +1,36 @@
+{
+  "company": "DB손해보험",
+  "title": "2026년 1분기 DB손해보험 현황(경영공시)",
+  "posted_date": "2026-05-29",
+  "period_year": 2026,
+  "period_kind": "Q1",
+  "period_label": "2026_Q1",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=4c3187cc8627450a93bc&tp=T&tx=&ct=2",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2026_Q1/doc_2_2026년_1분기_DB손해보험_현황_경영공시/2026052903_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2026_Q1/doc_2_2026년_1분기_DB손해보험_현황_경영공시/2026052903_pdf.txt",
+    "page_count": 130,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": 15,
+        "prior_value": 39,
+        "change": 41,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 27,
+        "prior_value": 28,
+        "change": 35,
+        "unit": "억원"
+      }
+    ]
+  }
+}

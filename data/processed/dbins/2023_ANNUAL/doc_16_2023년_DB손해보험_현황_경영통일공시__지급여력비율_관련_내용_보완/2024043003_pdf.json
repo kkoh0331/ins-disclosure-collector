@@ -1,0 +1,45 @@
+{
+  "company": "DB손해보험",
+  "title": "2023년 DB손해보험 현황(경영통일공시)_지급여력비율 관련 내용 보완",
+  "posted_date": "2024-04-30",
+  "period_year": 2023,
+  "period_kind": "ANNUAL",
+  "period_label": "2023_ANNUAL",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=53c3aa12409a4beca941&tp=T&tx=&ct=16",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2023_ANNUAL/doc_16_2023년_DB손해보험_현황_경영통일공시__지급여력비율_관련_내용_보완/2024043003_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2023_ANNUAL/doc_16_2023년_DB손해보험_현황_경영통일공시__지급여력비율_관련_내용_보완/2024043003_pdf.txt",
+    "page_count": 33,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": 15768,
+        "prior_value": 15283,
+        "change": 10157,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 326120,
+        "prior_value": 273116,
+        "change": 273294,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "equity",
+        "metric_name": "자본",
+        "value": 100290,
+        "prior_value": 99032,
+        "change": 98525,
+        "unit": "억원"
+      }
+    ]
+  }
+}

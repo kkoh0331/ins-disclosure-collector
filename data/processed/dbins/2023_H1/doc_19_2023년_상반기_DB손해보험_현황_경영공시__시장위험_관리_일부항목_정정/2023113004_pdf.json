@@ -1,0 +1,17 @@
+{
+  "company": "DB손해보험",
+  "title": "2023년 상반기 DB손해보험 현황(경영공시)_시장위험 관리 일부항목 정정",
+  "posted_date": "2023-11-30",
+  "period_year": 2023,
+  "period_kind": "H1",
+  "period_label": "2023_H1",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=2bc03b0755634194bbd6&tp=T&tx=&ct=19",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2023_H1/doc_19_2023년_상반기_DB손해보험_현황_경영공시__시장위험_관리_일부항목_정정/2023113004_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2023_H1/doc_19_2023년_상반기_DB손해보험_현황_경영공시__시장위험_관리_일부항목_정정/2023113004_pdf.txt",
+    "page_count": 2,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "company": "DB손해보험",
+  "title": "2023년 3분기 DB손해보험 현황(경영공시)_지급여력비율 관련 내용 보완",
+  "posted_date": "2023-12-27",
+  "period_year": 2023,
+  "period_kind": "Q3",
+  "period_label": "2023_Q3",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=ba4b88345030491ba276&tp=T&tx=&ct=18",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2023_Q3/doc_18_2023년_3분기_DB손해보험_현황_경영공시__지급여력비율_관련_내용_보완/2023122701_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2023_Q3/doc_18_2023년_3분기_DB손해보험_현황_경영공시__지급여력비율_관련_내용_보완/2023122701_pdf.txt",
+    "page_count": 11,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "equity",
+        "metric_name": "자본",
+        "value": 99032,
+        "prior_value": 98525,
+        "change": 93783,
+        "unit": "억원"
+      }
+    ]
+  }
+}

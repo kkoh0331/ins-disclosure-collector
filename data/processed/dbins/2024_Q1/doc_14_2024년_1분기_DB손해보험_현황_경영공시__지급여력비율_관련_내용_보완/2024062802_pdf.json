@@ -1,0 +1,90 @@
+{
+  "company": "DB손해보험",
+  "title": "2024년 1분기 DB손해보험 현황(경영공시)_지급여력비율 관련 내용 보완",
+  "posted_date": "2024-06-28",
+  "period_year": 2024,
+  "period_kind": "Q1",
+  "period_label": "2024_Q1",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=9cd9bc8ef8204e559e42&tp=T&tx=&ct=14",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2024_Q1/doc_14_2024년_1분기_DB손해보험_현황_경영공시__지급여력비율_관련_내용_보완/2024062802_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2024_Q1/doc_14_2024년_1분기_DB손해보험_현황_경영공시__지급여력비율_관련_내용_보완/2024062802_pdf.txt",
+    "page_count": 21,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": 488432,
+        "prior_value": 441287,
+        "change": 47145,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 404066,
+        "prior_value": 364706,
+        "change": 39360,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "equity",
+        "metric_name": "자본",
+        "value": 84366,
+        "prior_value": 76581,
+        "change": 7785,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "net_income",
+        "metric_name": "당기순이익",
+        "value": 5834,
+        "prior_value": 4473,
+        "change": 1361,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "investment_yield",
+        "metric_name": "운용자산이익률(A/B)",
+        "value": 2.8,
+        "prior_value": 3.54,
+        "change": -0.74,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "operating_margin",
+        "metric_name": "영업이익률",
+        "value": 10.27,
+        "prior_value": 12.82,
+        "change": -2.56,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "roa",
+        "metric_name": "총자산수익률(ROA)",
+        "value": 4.79,
+        "prior_value": 4.01,
+        "change": 0.78,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "roe",
+        "metric_name": "자기자본수익률(ROE)",
+        "value": 27.28,
+        "prior_value": 21.2,
+        "change": 6.08,
+        "unit": "%"
+      }
+    ]
+  }
+}

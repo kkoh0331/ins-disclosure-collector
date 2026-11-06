@@ -1,0 +1,36 @@
+{
+  "company": "DB손해보험",
+  "title": "2024년 상반기 DB손해보험 현황(경영공시)_지급여력비율 및 기타 일반 현황 일부 항목 보완",
+  "posted_date": "2024-09-27",
+  "period_year": 2024,
+  "period_kind": "H1",
+  "period_label": "2024_H1",
+  "detail_url": "https://www.idbins.com/pc/bizxpress/contentTemplet/pb/mp/rg/view.jsp?i=1ca73c4b162844f384d1&tp=T&tx=&ct=12",
+  "extraction": {
+    "source_pdf": "data/raw/dbins/2024_H1/doc_12_2024년_상반기_DB손해보험_현황_경영공시__지급여력비율_및_기타_일반_현황_일부_항목_보완/2024092701_pdf.pdf",
+    "extracted_text": "data/processed/dbins/2024_H1/doc_12_2024년_상반기_DB손해보험_현황_경영공시__지급여력비율_및_기타_일반_현황_일부_항목_보완/2024092701_pdf.txt",
+    "page_count": 33,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": 12896,
+        "prior_value": 15094,
+        "change": 15768,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 331946,
+        "prior_value": 321292,
+        "change": 326120,
+        "unit": "억원"
+      }
+    ]
+  }
+}
