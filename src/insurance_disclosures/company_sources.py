@@ -165,7 +165,10 @@ def _browser_candidates(page, source: CompanySource) -> list[dict[str, Any]]:
             for link in row["links"]:
                 action = link.get("onclick", "")
                 combined = f"{text} {link.get('text','')} {action}"
-                if INCLUDE_RE.search(combined) or "fnGoDetailView" in action:
+                # A generic detail-view handler is also used by Hyundai's
+                # procurement/notice board. Require disclosure wording in the
+                # actual row text instead of accepting every detail link.
+                if INCLUDE_RE.search(text):
                     result.append({
                         "row_index": row["i"], "text": link.get("text") or text,
                         "row_text": text, "link_index": link["j"],
@@ -177,7 +180,8 @@ def _browser_candidates(page, source: CompanySource) -> list[dict[str, Any]]:
             items = page.locator("a").evaluate_all(
                 "els => els.map((a, i) => ({i,text:(a.innerText||a.textContent||'').trim(),href:a.getAttribute('href')||'',onclick:a.getAttribute('onclick')||'',context:(a.closest('tr')?.innerText||a.parentElement?.innerText||'').trim()}))"
             )
-            result = [x for x in items if INCLUDE_RE.search(x["text"] + " " + x["context"])]
+            result = [x for x in items if INCLUDE_RE.search(x["text"])
+                      and not EXCLUDE_RE.search(x["text"])]
         return result
 
     # Meritz uses a JavaScript-driven page; after render, discover its report links.
@@ -190,6 +194,18 @@ def _browser_candidates(page, source: CompanySource) -> list[dict[str, Any]]:
             and not EXCLUDE_RE.search(x["text"])]
 
 
+def _is_probable_pdf_url(url: str) -> bool:
+    """Reject obvious non-document destinations (notably Adobe Reader pages)."""
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower()
+    path = parsed.path.lower()
+    if host.endswith("adobe.com") or "reader" in path:
+        return False
+    return path.endswith(".pdf") or any(token in path for token in (
+        "filedownload", "filedown", "downloadfile", "download.do"
+    ))
+
+
 def _list_pdf_links(page, base_url: str) -> list[Attachment]:
     raw = page.locator("a").evaluate_all(
         "els => els.map(a=>({text:(a.innerText||a.textContent||'').trim(),href:a.getAttribute('href')||'',onclick:a.getAttribute('onclick')||''}))"
@@ -200,9 +216,12 @@ def _list_pdf_links(page, base_url: str) -> list[Attachment]:
         label = item.get("text", "")
         if not _is_real_url(href):
             continue
-        if not (".pdf" in href.lower() or DOWNLOAD_RE.search(label) or "filedownload" in href.lower()):
-            continue
         url = urljoin(base_url, href)
+        if not _is_probable_pdf_url(url):
+            continue
+        if not (".pdf" in url.lower() or "filedownload" in url.lower()
+                or "filedown" in url.lower() or DOWNLOAD_RE.search(label)):
+            continue
         path_name = Path(urlparse(url).path).name
         if path_name.lower() in {"filedownload.do", "download.do", "filedown.do", "serviceaction.do"}:
             path_name = label or "disclosure.pdf"
@@ -265,6 +284,13 @@ def _click_for_pdf(page, source: CompanySource, candidate: dict[str, Any], temp_
             filename = _safe_filename(download.suggested_filename, "disclosure.pdf")
             local = temp_dir / f"{source.slug}_{int(time.time() * 1000)}_{filename}"
             download.save_as(local)
+            # Some pages label the Adobe Reader installer as reader.pdf.
+            # Keep only genuine PDF payloads, not HTML installer/error pages.
+            if not local.read_bytes()[:5] == b"%PDF-":
+                local.unlink(missing_ok=True)
+                logger.warning("%s: 다운로드 응답이 실제 PDF가 아니어서 제외했습니다: %s",
+                               source.company, download.url)
+                return []
             download_url = download.url or ""
             if not download_url.startswith(("http://", "https://")):
                 download_url = source.list_url + "#download=" + quote(filename)
@@ -345,7 +371,7 @@ def discover_company_documents(
                     combined = f"{title} {context_text}"
                     # Only collect regular management-unified disclosures, not
                     # review/audit statements or general quarterly reports.
-                    if not INCLUDE_RE.search(combined) and source.strategy != "hyundai":
+                    if not INCLUDE_RE.search(combined):
                         continue
                     if EXCLUDE_RE.search(combined):
                         continue
@@ -361,7 +387,7 @@ def discover_company_documents(
                 attachments = _click_for_pdf(page, source, candidate, temp_dir, log)
                 if not attachments and _is_real_url(href):
                     direct_url = urljoin(source.list_url, href)
-                    if ".pdf" in direct_url.lower() or DOWNLOAD_RE.search(title) or "filedownload" in direct_url.lower():
+                    if _is_probable_pdf_url(direct_url):
                         attachments = [Attachment(_safe_filename(urlparse(direct_url).path, title), direct_url)]
                 if not attachments and _is_real_url(href):
                     # If the entry itself is a detail view, navigate to it and
