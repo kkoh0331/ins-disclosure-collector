@@ -1,0 +1,183 @@
+{
+  "company": "KB손해보험",
+  "company_slug": "kb",
+  "title": "-2/4분기 경영통일공시\t2026-08-31",
+  "posted_date": "2026-08-31",
+  "period_year": 2026,
+  "period_kind": "H1",
+  "period_label": "2026_H1",
+  "detail_url": "https://www.kbinsure.co.kr/CG801010001.ec#-2/4%EB%B6%84%EA%B8%B0%20%EA%B2%BD%EC%98%81%ED%86%B5%EC%9D%BC%EA%B3%B5%EC%8B%9C%092026-08-31%7C-2/4%EB%B6%84%EA%B8%B0%20%EA%B2%BD%EC%98%81%ED%86%B5%EC%9D%BC%EA%B3%B5%EC%8B%9C%092026-08-31",
+  "source_pdf_url": "https://www.kbinsure.co.kr/CG801020002.ec?seq=1058",
+  "extraction": {
+    "source_pdf": "data/raw/kb/2026_H1/doc_23_-2_4분기_경영통일공시_2026-08-31/KB손해보험_2026년_상반기_경영공시_vff_pdf.pdf",
+    "extracted_text": "data/processed/kb/2026_H1/doc_23_-2_4분기_경영통일공시_2026-08-31/KB손해보험_2026년_상반기_경영공시_vff_pdf.txt",
+    "page_count": 64,
+    "pages_with_little_or_no_text": 0,
+    "text_extraction_warning": null,
+    "metrics": [
+      {
+        "section": "주요 경영지표",
+        "metric_key": "assets",
+        "metric_name": "자산",
+        "value": 445556,
+        "prior_value": 426854,
+        "change": 18702,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "liabilities",
+        "metric_name": "부채",
+        "value": 382263,
+        "prior_value": 371052,
+        "change": 11211,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "equity",
+        "metric_name": "자본",
+        "value": 63293,
+        "prior_value": 55802,
+        "change": 7491,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "net_income",
+        "metric_name": "당기순이익",
+        "value": 4990,
+        "prior_value": 5661,
+        "change": null,
+        "unit": "억원"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "investment_yield",
+        "metric_name": "운용자산이익률(A/B)",
+        "value": 3.53,
+        "prior_value": 3.26,
+        "change": 0.27,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "operating_margin",
+        "metric_name": "영업이익률",
+        "value": 5.03,
+        "prior_value": 5.87,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "roa",
+        "metric_name": "총자산수익률(ROA)",
+        "value": 2.24,
+        "prior_value": 2.72,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영지표",
+        "metric_key": "roe",
+        "metric_name": "자기자본수익률(ROE)",
+        "value": 16.57,
+        "prior_value": 19.8,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영효율 지표",
+        "metric_key": "new_business_rate",
+        "metric_name": "신계약률",
+        "value": 43.23,
+        "prior_value": 48.28,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영효율 지표",
+        "metric_key": "lapse_surrender_rate",
+        "metric_name": "효력상실 및 해약률",
+        "value": 4.72,
+        "prior_value": 5.14,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "주요 경영효율 지표",
+        "metric_key": "asset_management_rate",
+        "metric_name": "자산운용률",
+        "value": 94.18,
+        "prior_value": 93.33,
+        "change": 0.85,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_13m",
+        "metric_name": "13회차 유지율",
+        "value": 88.71,
+        "prior_value": 88.17,
+        "change": 0.54,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_25m",
+        "metric_name": "25회차 유지율",
+        "value": 73.97,
+        "prior_value": 69.93,
+        "change": 4.04,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_37m",
+        "metric_name": "37회차 유지율",
+        "value": 58.25,
+        "prior_value": 59.6,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_49m",
+        "metric_name": "49회차 유지율",
+        "value": 51.75,
+        "prior_value": 58.45,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_61m",
+        "metric_name": "61회차 유지율",
+        "value": 54.38,
+        "prior_value": 47.11,
+        "change": 7.27,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_73m",
+        "metric_name": "73회차 유지율",
+        "value": 42.94,
+        "prior_value": 43.35,
+        "change": null,
+        "unit": "%"
+      },
+      {
+        "section": "유지율",
+        "metric_key": "retention_85m",
+        "metric_name": "85회차 유지율",
+        "value": 40.56,
+        "prior_value": 36.48,
+        "change": 4.08,
+        "unit": "%"
+      }
+    ]
+  },
+  "metric_extraction_note": "현재 지표 추출 규칙은 DB손해보험 공시 형식을 기준으로 작성되었습니다. 타사 결과는 원본 PDF와 대조해 추출 규칙을 검증한 후 비교분석에 사용하세요."
+}

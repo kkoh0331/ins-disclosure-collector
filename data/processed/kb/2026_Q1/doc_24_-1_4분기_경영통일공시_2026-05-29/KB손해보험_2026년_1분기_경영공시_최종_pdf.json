@@ -1,0 +1,20 @@
+{
+  "company": "KB손해보험",
+  "company_slug": "kb",
+  "title": "-1/4분기 경영통일공시\t2026-05-29",
+  "posted_date": "2026-05-29",
+  "period_year": 2026,
+  "period_kind": "Q1",
+  "period_label": "2026_Q1",
+  "detail_url": "https://www.kbinsure.co.kr/CG801010001.ec#-1/4%EB%B6%84%EA%B8%B0%20%EA%B2%BD%EC%98%81%ED%86%B5%EC%9D%BC%EA%B3%B5%EC%8B%9C%092026-05-29%7C-1/4%EB%B6%84%EA%B8%B0%20%EA%B2%BD%EC%98%81%ED%86%B5%EC%9D%BC%EA%B3%B5%EC%8B%9C%092026-05-29",
+  "source_pdf_url": "https://www.kbinsure.co.kr/CG801020002.ec?seq=1038",
+  "extraction": {
+    "source_pdf": "data/raw/kb/2026_Q1/doc_24_-1_4분기_경영통일공시_2026-05-29/KB손해보험_2026년_1분기_경영공시_최종_pdf.pdf",
+    "extracted_text": "data/processed/kb/2026_Q1/doc_24_-1_4분기_경영통일공시_2026-05-29/KB손해보험_2026년_1분기_경영공시_최종_pdf.txt",
+    "page_count": 27,
+    "pages_with_little_or_no_text": 18,
+    "text_extraction_warning": "일부 페이지의 텍스트가 거의 없습니다. 스캔 이미지 PDF일 수 있어 OCR 검토가 필요합니다.",
+    "metrics": []
+  },
+  "metric_extraction_note": "현재 지표 추출 규칙은 DB손해보험 공시 형식을 기준으로 작성되었습니다. 타사 결과는 원본 PDF와 대조해 추출 규칙을 검증한 후 비교분석에 사용하세요."
+}
